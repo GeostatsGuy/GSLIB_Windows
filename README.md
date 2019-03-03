@@ -6,13 +6,13 @@ __What is this?__
 
 __Why?__ 
 
-* GSLIB is a very powerful library of methods for constructing geostatistical modeling workflows.  Yet, the source code is in FORTRAN and with the modern use of dynamically linked libraries (DLLs) and the abscence of FORTRAN compilers on many Windows machines, people are now routinely getting 'missing DLL errors' when they try to use the available compiled code (e.g. [GSLIB.com](http://www.statios.com/software/gslib90.exe). 
+* GSLIB is a very powerful library of methods for constructing geostatistical modeling workflows.  Yet, the source code is in FORTRAN and with the modern use of dynamically linked libraries (DLLs) and the abscence of FORTRAN compilers on many Windows machines, people are now routinely getting 'missing DLL errors' when they try to use the available compiled code (e.g. [GSLIB.com](http://www.statios.com/software/gslib90.exe)). 
 * By compiling the GSLIB source with static libraries instead of dynamically linked libraries we can overcome this issue and make GSLIB available to my students with Windows machines.
 
 __Why would I do this?__ 
 
 * When I teach I still find it useful to have access to GSLIB.  It provides the most simple, building block approach for geostatistical workflow construction.  I really appreciate the great contributions of Dr. Clayton Deutsch and Dr. Andre Journel to our modeling comunity.  
-* My *GeostatsPy* Python package [GeostatsPy](https://github.com/GeostatsGuy/GeostatsPy) is still under construction, in some cases I have simply just 'wrapped' the GSLIB executable.  i.e. the Python code writes the parameter and the input data files, runs the GSLIB executable and then reads the output back in.  I recognize that this is just a stop-gap, temporary solution.  I'm working on reimplimenting all of GSLIB along with other functionality in the Python package. 
+* My *GeostatsPy* Python package ([GeostatsPy](https://github.com/GeostatsGuy/GeostatsPy)) is still under construction, in some cases I have simply just 'wrapped' the GSLIB executable.  i.e. the Python code writes the parameter and the input data files, runs the GSLIB executable and then reads the output back in.  I recognize that this is just a stop-gap, temporary solution.  I'm working on reimplimenting all of GSLIB along with other functionality in the Python package. 
 
 ### Michael Pyrcz, Associate Professor, University of Texas at Austin 
 *Novel Data Analytics, Geostatistics and Machine Learning Subsurface Solutions*
